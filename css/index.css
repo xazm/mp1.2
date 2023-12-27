@@ -40,8 +40,6 @@ a {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .form-control:focus {
-  color: #6c7293;
-  background-color: #000;
   border-color: #ffc107b9;
   outline: 0;
   box-shadow: 0 0 0 0.25rem #ffc10758;
@@ -49,6 +47,11 @@ a {
 
 .form-check-input {
   background-color: #000;
+}
+.form-check-input:focus {
+  border-color: #ffc107b9;
+  outline: 0;
+  box-shadow: 0 0 0 0.15rem #ffc10758;
 }
 .form-check-input:checked {
   background-color: #f4e30069;
