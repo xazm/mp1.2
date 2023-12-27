@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  color: #ffc107;
+}
+
+.logo {
+  width: 150px !important;
+}
+.sign-in,
+.text-company {
+  margin-bottom: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  /* color: #fff; */
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  /* color: #6c7293; */
+  background-color: #000;
+  background-clip: padding-box;
+  border: 1px solid #000;
+  appearance: none;
+  border-radius: 5px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-control:focus {
+  color: #6c7293;
+  background-color: #000;
+  border-color: #ffc107b9;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem #ffc10758;
+}
+
+.form-check-input {
+  background-color: #000;
+}
+.form-check-input:checked {
+  background-color: #f4e30069;
+}
+
+.btn {
+  color: white;
+}
